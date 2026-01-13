@@ -1,0 +1,16 @@
+# yml 파일
+name: AromBake CI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  mochi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "dubai mochi"
+        run: echo "두바이 모찌빵"
+      - name: "sweet potato mochi"
+        run: echo "고구마 모찌빵 왜 사먹음?"
+      - name: "egg tart"
+        run: echo "에그타르트 존맛탱"
