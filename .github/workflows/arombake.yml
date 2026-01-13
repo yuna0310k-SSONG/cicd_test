@@ -14,3 +14,12 @@ jobs:
         run: echo "고구마 모찌빵 왜 사먹음?"
       - name: "egg tart"
         run: echo "에그타르트 존맛탱"
+  gelato:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "vanilla gelato"
+        run: echo "바닐라 아이스크림"
+      - name: "chocolate gelato"
+        run: echo "초코 아이스크림"
+      - name: "strawberry gelato"
+        run: echo "딸기 아이스크림"
